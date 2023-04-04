@@ -1,0 +1,332 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="se.umu.dv21jen.picdaily"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:6:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:8:5-60
+14-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:8:19-57
+15
+16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\c1d5a32fed9aeec3b3a66a69822b5727\transformed\firebase-storage-20.1.0\AndroidManifest.xml:25:5-79
+18-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\c1d5a32fed9aeec3b3a66a69822b5727\transformed\firebase-storage-20.1.0\AndroidManifest.xml:25:22-76
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\jamer\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="se.umu.dv21jen.picdaily.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\jamer\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\jamer\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="se.umu.dv21jen.picdaily.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\jamer\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\jamer\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:10:5-54:19
+27        android:allowBackup="true"
+27-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:11:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\jamer\.gradle\caches\transforms-3\03e6674ecfdcdd1a9634684917e62b5c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:12:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:13:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:14:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:15:9-41
+35        android:supportsRtl="true"
+35-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:16:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.PicDaily" >
+37-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:17:9-46
+38        <activity
+38-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:19:9-21:40
+39            android:name="se.umu.dv21jen.picdaily.AddCollectionActivity"
+39-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:20:13-50
+40            android:exported="false" />
+40-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:21:13-37
+41        <activity
+41-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:22:9-24:40
+42            android:name="se.umu.dv21jen.picdaily.ImagePreviewActivity"
+42-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:23:13-49
+43            android:exported="false" />
+43-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:24:13-37
+44        <activity
+44-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:25:9-27:40
+45            android:name="se.umu.dv21jen.picdaily.CameraActivity"
+45-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:26:13-43
+46            android:exported="false" />
+46-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:27:13-37
+47        <activity
+47-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:28:9-30:40
+48            android:name="se.umu.dv21jen.picdaily.CollectionActivity"
+48-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:29:13-47
+49            android:exported="false" />
+49-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:30:13-37
+50        <activity
+50-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:31:9-41:20
+51            android:name="se.umu.dv21jen.picdaily.SplashScreenActivity"
+51-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:32:13-49
+52            android:exported="true"
+52-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:33:13-36
+53            android:label="@string/app_name"
+53-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:34:13-45
+54            android:theme="@style/Theme.PicDaily" >
+54-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:35:13-50
+55            <intent-filter>
+55-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:36:13-40:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:37:17-69
+56-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:37:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:39:17-77
+58-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:39:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:42:9-44:40
+62            android:name="se.umu.dv21jen.picdaily.RegisterActivity"
+62-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:43:13-45
+63            android:exported="false" />
+63-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:44:13-37
+64        <activity
+64-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:45:9-50:58
+65            android:name="se.umu.dv21jen.picdaily.LoginActivity"
+65-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:46:13-42
+66            android:exported="false"
+66-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:47:13-37
+67            android:label="@string/title_activity_login"
+67-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:48:13-57
+68            android:theme="@style/Theme.PicDaily"
+68-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:49:13-50
+69            android:windowSoftInputMode="adjustResize" />
+69-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:50:13-55
+70        <activity
+70-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:51:9-53:40
+71            android:name="se.umu.dv21jen.picdaily.MainActivity"
+71-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:52:13-41
+72            android:exported="false" />
+72-->C:\Users\jamer\AndroidStudioProjects\PicDaily\app\src\main\AndroidManifest.xml:53:13-37
+73
+74        <service
+74-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\2f336a8a0cd976c1d78a88e3aa8de6c6\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\2f336a8a0cd976c1d78a88e3aa8de6c6\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:12:13-84
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\2f336a8a0cd976c1d78a88e3aa8de6c6\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:13:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\2f336a8a0cd976c1d78a88e3aa8de6c6\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+79                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+79-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\2f336a8a0cd976c1d78a88e3aa8de6c6\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:15:17-122
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\2f336a8a0cd976c1d78a88e3aa8de6c6\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:16:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\ee0a4d99c7b4123ca8d9f6b59975efe2\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+82                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+82-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\ee0a4d99c7b4123ca8d9f6b59975efe2\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\ee0a4d99c7b4123ca8d9f6b59975efe2\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\jamer\.gradle\caches\transforms-3\5c701c7a547ea2729945040fcdb5b0d4\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:14:13-16:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+85-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\jamer\.gradle\caches\transforms-3\5c701c7a547ea2729945040fcdb5b0d4\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:15:17-126
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\jamer\.gradle\caches\transforms-3\5c701c7a547ea2729945040fcdb5b0d4\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:16:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\f2aefc474b7bc3272b2825444e1f0748\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+88-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\f2aefc474b7bc3272b2825444e1f0748\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:12:17-116
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\f2aefc474b7bc3272b2825444e1f0748\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:13:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\bfa5fc9f624a6dac7c555ac77b78677d\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+91                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+91-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\bfa5fc9f624a6dac7c555ac77b78677d\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\bfa5fc9f624a6dac7c555ac77b78677d\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\c1d5a32fed9aeec3b3a66a69822b5727\transformed\firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+94                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+94-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\c1d5a32fed9aeec3b3a66a69822b5727\transformed\firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\c1d5a32fed9aeec3b3a66a69822b5727\transformed\firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-database:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\52189a0cfbf1d5ab17a3ea8633411255\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+97                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+97-->[com.google.firebase:firebase-database:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\52189a0cfbf1d5ab17a3ea8633411255\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-database:20.1.0] C:\Users\jamer\.gradle\caches\transforms-3\52189a0cfbf1d5ab17a3ea8633411255\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\jamer\.gradle\caches\transforms-3\4827cf48d722ae4c5125b0ea6b81c86d\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:19:13-21:85
+100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+100-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\jamer\.gradle\caches\transforms-3\4827cf48d722ae4c5125b0ea6b81c86d\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:20:17-111
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\jamer\.gradle\caches\transforms-3\4827cf48d722ae4c5125b0ea6b81c86d\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:21:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+103                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+103-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+105        </service>
+106
+107        <activity
+107-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+108            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+109            android:excludeFromRecents="true"
+109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+110            android:exported="true"
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+111            android:launchMode="singleTask"
+111-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+113            <intent-filter>
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+114                <action android:name="android.intent.action.VIEW" />
+114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+117                <category android:name="android.intent.category.BROWSABLE" />
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+118
+119                <data
+119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+120                    android:host="firebase.auth"
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+121                    android:path="/"
+121-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+122                    android:scheme="genericidp" />
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+123            </intent-filter>
+124        </activity>
+125        <activity
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+126            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+127            android:excludeFromRecents="true"
+127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+128            android:exported="true"
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+129            android:launchMode="singleTask"
+129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+131            <intent-filter>
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+132                <action android:name="android.intent.action.VIEW" />
+132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+135                <category android:name="android.intent.category.BROWSABLE" />
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+136
+137                <data
+137-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+138                    android:host="firebase.auth"
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+139                    android:path="/"
+139-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+140                    android:scheme="recaptcha" />
+140-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jamer\.gradle\caches\transforms-3\45028a72eafd7aac8c650548b478a904\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+141            </intent-filter>
+142        </activity>
+143
+144        <provider
+144-->[com.google.firebase:firebase-common:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+145            android:name="com.google.firebase.provider.FirebaseInitProvider"
+145-->[com.google.firebase:firebase-common:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+146            android:authorities="se.umu.dv21jen.picdaily.firebaseinitprovider"
+146-->[com.google.firebase:firebase-common:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+148            android:exported="false"
+148-->[com.google.firebase:firebase-common:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+149            android:initOrder="100" />
+149-->[com.google.firebase:firebase-common:20.3.2] C:\Users\jamer\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+150
+151        <activity
+151-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jamer\.gradle\caches\transforms-3\597f7ccb47bb57226b133f4aa9aec958\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jamer\.gradle\caches\transforms-3\597f7ccb47bb57226b133f4aa9aec958\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jamer\.gradle\caches\transforms-3\597f7ccb47bb57226b133f4aa9aec958\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jamer\.gradle\caches\transforms-3\597f7ccb47bb57226b133f4aa9aec958\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jamer\.gradle\caches\transforms-3\de094be51e2c19e1668b6eee7bd8aaa2\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jamer\.gradle\caches\transforms-3\de094be51e2c19e1668b6eee7bd8aaa2\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jamer\.gradle\caches\transforms-3\de094be51e2c19e1668b6eee7bd8aaa2\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+159
+160        <uses-library
+160-->[androidx.window:window:1.0.0] C:\Users\jamer\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+161            android:name="androidx.window.extensions"
+161-->[androidx.window:window:1.0.0] C:\Users\jamer\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+162            android:required="false" />
+162-->[androidx.window:window:1.0.0] C:\Users\jamer\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+163        <uses-library
+163-->[androidx.window:window:1.0.0] C:\Users\jamer\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+164            android:name="androidx.window.sidecar"
+164-->[androidx.window:window:1.0.0] C:\Users\jamer\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+165            android:required="false" />
+165-->[androidx.window:window:1.0.0] C:\Users\jamer\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+166
+167        <provider
+167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jamer\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+168            android:name="androidx.startup.InitializationProvider"
+168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jamer\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+169            android:authorities="se.umu.dv21jen.picdaily.androidx-startup"
+169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jamer\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+170            android:exported="false" >
+170-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jamer\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+171            <meta-data
+171-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jamer\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+172                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+172-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jamer\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+173                android:value="androidx.startup" />
+173-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jamer\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+174            <meta-data
+174-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jamer\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+175                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+175-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jamer\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+176                android:value="androidx.startup" />
+176-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jamer\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+177        </provider>
+178    </application>
+179
+180</manifest>

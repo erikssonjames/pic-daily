@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234854999577",
+    "firebase_url": "https://picdaily-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "picdaily",
+    "storage_bucket": "picdaily.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234854999577:android:6cf2a834b9659fb1d7ec88",
+        "android_client_info": {
+          "package_name": "se.umu.dv21jen.picdaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234854999577-tb7n35g5np80d0jmpud0ejajtcmu2j40.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.umu.dv21jen.picdaily",
+            "certificate_hash": "ed1b30ed361a16b13c72f8f45175b100b7aabeff"
+          }
+        },
+        {
+          "client_id": "234854999577-vdaujb7lulfpoakj2t99cs4s9bgt5ins.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJnBGw853CrpGJtywACAta-DlV2nP_O1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234854999577-vdaujb7lulfpoakj2t99cs4s9bgt5ins.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

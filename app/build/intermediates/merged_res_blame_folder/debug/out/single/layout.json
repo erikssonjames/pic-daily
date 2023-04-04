@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\text_input.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\text_input.xml"
+    },
+    {
+        "merged": "se.umu.dv21jen.picdaily.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "se.umu.dv21jen.picdaily.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "se.umu.dv21jen.picdaily.app-mergeDebugResources-49:/layout/activity_image_preview.xml",
+        "source": "se.umu.dv21jen.picdaily.app-main-52:/layout/activity_image_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\collection_item.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\collection_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_image_preview.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_image_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "se.umu.dv21jen.picdaily.app-mergeDebugResources-49:/layout/activity_collection.xml",
+        "source": "se.umu.dv21jen.picdaily.app-main-52:/layout/activity_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_add_collection.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_add_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-mergeDebugResources-49:\\layout\\activity_collection.xml",
+        "source": "C:\\Users\\jamer\\.gradle\\daemon\\7.5\\se.umu.dv21jen.picdaily.app-main-52:\\layout\\activity_collection.xml"
+    },
+    {
+        "merged": "se.umu.dv21jen.picdaily.app-mergeDebugResources-49:/layout/activity_camera.xml",
+        "source": "se.umu.dv21jen.picdaily.app-main-52:/layout/activity_camera.xml"
+    }
+]

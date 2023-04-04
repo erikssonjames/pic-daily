@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#9F2D2D</color>
+    <color name="status_error">#FFDADA</color>
+    <color name="status_good">#FFBBFABF</color>
+    <color name="picture_goal_bg">#BBF6E6</color>
+</resources>
